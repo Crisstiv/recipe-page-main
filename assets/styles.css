@@ -144,6 +144,7 @@ hr{
     color: hsl(14, 45%, 36%);
 }
 
+/* añade estilos al parrafo */
 .cuarto_parrafo p{
     font-weight: 500;
     font-size: 14px;
@@ -151,25 +152,30 @@ hr{
     font-family: 'Young Serif';
 }
 
+/* estilos a la tabla para que el ancho ocupe el 100% del contenedor padre y se vea la linea de lado a lado */
 table{
     width: 100%;
     border-collapse: collapse;
 }
 
+/* color de el borde de las filas y el espacio entre ellas */
 td{
     border-bottom: 0.1px solid hsl(32, 15%, 83%);
     padding: 10px 10px;
 }
 
+/* estilos a la primera columa de la tabla */
 #columnauno{
     color:hsl(30, 10%, 34%);
 }
 
+/* estilos a la segunda columna de la tabla */
 #columnados{
     color: hsl(14, 45%, 36%);
     font-weight: 800;
 }
 
+/* responsive para que en mobiles la tarjeta ocupe el 100% de la pagina */
 @media (max-width: 768px) {
     .tarjeta {
         width: 100%;
