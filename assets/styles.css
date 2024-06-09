@@ -1,0 +1,180 @@
+
+
+/* añade estilos a todo el cuerpo */
+* {
+    background-color: hsl(30, 54%, 90%);
+    
+}
+
+/* añade estilos generales a toda la tarjeta */
+.tarjeta {
+    background-color: hsl(0, 0%, 100%);
+    border: 2px none;
+    padding: 2%;
+    margin: 5% 30%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 15px;   
+    
+    
+}
+
+/* cambia el color */
+hr{
+    color: hsl(30, 10%, 34%);
+}
+
+
+.tarjeta * {
+    background-color: inherit; /* Hereda el color de fondo de la clase .tarjeta */
+}
+
+/* estilos de la imagen */
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+/* estilos al id titulo1 que esta dentro de la tarjeta*/
+.tarjeta #titulo1 {
+    background-color: inherit;
+    font-weight: 550;
+    font-size: 250%;
+    font-family: 'Young Serif', serif;
+}
+
+/* estilos a el id parrafo que esta dentro de la tarjeta */
+.tarjeta #parrafo1 {
+    background-color: inherit;
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+           
+}
+
+/* estilos del primer parrafo */
+.primer_parrafo {
+    padding: 2%;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+/* estilos del titulo del primer parrafo */
+.primer_parrafo h1{
+    color:hsl(332, 51%, 32%);
+    font-size: 16px;
+    padding-left:15px ;
+    
+    
+}
+
+/* cambia el color de los puntos de la lista */
+.primer_parrafo li::marker {
+    color: hsl(332, 51%, 32%);
+    font-size: 14px;
+}
+.primer_parrafo li{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    padding-left: 16px;
+    margin-bottom: 8px;
+}
+
+
+
+/* estilos a la lista del segundo parrafo*/
+.segundo_parrafo > ul{
+     padding-left: 20px; /*alinea la lista a la izaquierda de la caja  */
+     color:hsl(30, 10%, 34%);
+     font-size: 16px;
+     font-family: 'Outfit', sans-serif;  
+}
+.segundo_parrafo li{
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+
+/* cambia el color de los puntos de la lista */
+.segundo_parrafo li::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 14px;
+}
+
+.segundo_parrafo h1{
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+/* estilos del titulo del tercer parafo */
+.tercer_parrafo h2{
+    color: hsl(14, 45%, 36%);
+}
+
+/* cambio el color y grosor de los numeros de la lista */
+.tercer_parrafo li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+/* alinea toda la lista a la izquierda */
+.tercer_parrafo >ol{
+    color:hsl(30, 10%, 34%);
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;  
+}
+
+/* añade espacio entre el numero de la lista y el contenido de la lista */
+.tercer_parrafo li{
+    padding-left: 10px;
+    margin-bottom: 8px;
+    
+}
+
+/* estilos de la ultima seccion */
+.cuarto_parrafo h2{
+    color: hsl(14, 45%, 36%);
+}
+
+.cuarto_parrafo p{
+    font-weight: 500;
+    font-size: 14px;
+    color:hsl(30, 10%, 34%);
+    font-family: 'Young Serif';
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    border-bottom: 0.1px solid hsl(32, 15%, 83%);
+    padding: 10px 10px;
+}
+
+#columnauno{
+    color:hsl(30, 10%, 34%);
+}
+
+#columnados{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .tarjeta {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 5%;
+    }
+}   
